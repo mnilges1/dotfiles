@@ -9,5 +9,14 @@
     "key": "cmd+shift+v",
     "command": "pasteAndIndent.action",
     "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.terminal.clearSelection",
+    "when": "terminalHasBeenCreated || terminalProcessSupported"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "python.execInTerminal"
   }
 ]
